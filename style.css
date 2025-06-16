@@ -1,0 +1,190 @@
+/* css code written by Sunny-Kumar */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  overflow: hidden;
+ 
+}
+
+.left-panel {
+  background-color: #0b2515d2;
+  color: white;
+  width: 30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.left-panel img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.left-panel .info {
+  text-align: center;
+}
+
+.left-panel .info div {
+  margin: 10px 0;
+}
+
+.left-panel .skills {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.skill-bar {
+  background: #4e5a77;
+  border-radius: 5px;
+  height: 8px;
+  margin: 5px 0 15px;
+}
+
+.skill-bar-fill {
+  background: #fff;
+  height: 8px;
+  border-radius: 5px;
+}
+
+.circular-progress {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: conic-gradient(#4e5a77 0% 70%, #e0e0e0 70% 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: #333;
+         
+        }
+
+        .progress-value {
+            font-weight: bold;
+         
+
+        }
+
+        .progress-ring {
+            position: relative;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: conic-gradient(#fff 0% 90%, #4e5a77 90% 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+  margin-left: auto;
+  margin-right: auto;
+        }
+
+        .progress-ring__circle {
+            width: 90px;
+            height: 90px;
+            background: #0b2515d2;
+            /* inner circle color */
+            border-radius: 50%;
+        }
+
+        .progress-ring__text {
+            position: absolute;
+            font-size: 20px;
+            font-weight: bold;
+            color: #e9e4e4;
+        }
+.right-panel {
+  background: #e7e9eb; 
+  width: 70%;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+
+.header-section {
+    background: url('https://www.transparenttextures.com/patterns/cubes.png'), linear-gradient(to right, #93d1d9cd, hsla(199, 60%, 38%, 0.925));
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 40px 30px;
+  color: #2c3550;
+}
+
+.header-content {
+  max-width: 100%;
+}
+
+.header-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+}
+
+.header-content h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #3e3e3e;
+}
+
+
+
+h2 {
+  font-size: 22px;
+  margin: 20px 0 10px;
+  display: flex;
+  background-color: #99c3ea8e;
+  align-items: center;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+}
+
+.section-content li {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.experience div {
+  width: 48%;
+}
+
+.link a {
+    color: white;
+    text-decoration: none;
+}
